@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="28ecd245-682b-4501-ada5-d2e6da4144d7" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/music_player$get_singer_info.coverage" NAME="get_singer_info Coverage Results" MODIFIED="1555762118007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/music_player$mongo_process.coverage" NAME="mongo_process Coverage Results" MODIFIED="1555765868210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/music_player$algorithms.coverage" NAME="algorithms Coverage Results" MODIFIED="1555575538122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/music_player$Main_process.coverage" NAME="Main_process Coverage Results" MODIFIED="1555770283423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/music_player$data_init.coverage" NAME="data_init Coverage Results" MODIFIED="1555764712161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/music_player$test.coverage" NAME="test Coverage Results" MODIFIED="1555058185600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/music_player$main_ui.coverage" NAME="main_ui Coverage Results" MODIFIED="1554881284107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/music_player$down_load_music.coverage" NAME="down_load_music Coverage Results" MODIFIED="1555496484164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Main_process.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="122" column="28" lean-forward="true" selection-start-line="122" selection-start-column="28" selection-end-line="122" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+                <element signature="e#531#2268#0" />
+                <element signature="e#2358#3680#0" />
+                <element signature="e#3767#4755#0" />
+                <marker date="1556534090392" expanded="true" signature="1412:1417" ph="..." />
+                <marker date="1556534090392" expanded="true" signature="3023:3028" ph="..." />
+                <marker date="1556534090392" expanded="true" signature="4306:4355" ph="..." />
+                <marker date="1556534090392" expanded="true" signature="6638:6803" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_init.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1674">
+              <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+                <marker date="1555937226872" expanded="true" signature="220:221" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/algorithms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/songInfo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-648">
+              <caret column="15" selection-start-column="15" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mongo_process.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/down_load_music.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+              <folding>
+                <marker date="1556540356067" expanded="true" signature="596:597" ph="..." />
+                <marker date="1556540356067" expanded="true" signature="2367:2513" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/get_singer_info.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/my_widget.py" />
+        <option value="$PROJECT_DIR$/registered.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/get_singer_info.py" />
+        <option value="$PROJECT_DIR$/data_init.py" />
+        <option value="$PROJECT_DIR$/mongo_process.py" />
+        <option value="$PROJECT_DIR$/Main_process.py" />
+        <option value="$PROJECT_DIR$/down_load_music.py" />
+        <option value="$PROJECT_DIR$/algorithms.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="112" />
+    <option name="y" value="107" />
+    <option name="width" value="1315" />
+    <option name="height" value="759" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="final_music_player" type="b2602c69:ProjectViewProjectNode" />
+              <item name="final_music_player" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="final_music_player" type="b2602c69:ProjectViewProjectNode" />
+              <item name="final_music_player" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\THZ\Desktop\final_music_player(1)\final_music_player" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.Main_process">
+    <configuration name="Main_process" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="music_player" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main_process.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="algorithms" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="music_player" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithms.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="data_init" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="music_player" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_init.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="down_load_music" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="music_player" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/down_load_music.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="results" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="music_player" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../results.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.down_load_music" />
+      <item itemvalue="Python.results" />
+      <item itemvalue="Python.Main_process" />
+      <item itemvalue="Python.algorithms" />
+      <item itemvalue="Python.data_init" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Main_process" />
+        <item itemvalue="Python.down_load_music" />
+        <item itemvalue="Python.data_init" />
+        <item itemvalue="Python.algorithms" />
+        <item itemvalue="Python.results" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28ecd245-682b-4501-ada5-d2e6da4144d7" name="Default Changelist" comment="" />
+      <created>1554275331467</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554275331467</updated>
+      <workItem from="1555912296272" duration="734000" />
+      <workItem from="1555913986689" duration="1259000" />
+      <workItem from="1555918495322" duration="311000" />
+      <workItem from="1555926607404" duration="569000" />
+      <workItem from="1555927208494" duration="4000" />
+      <workItem from="1555927224047" duration="886000" />
+      <workItem from="1555929239314" duration="161000" />
+      <workItem from="1555929415455" duration="8092000" />
+      <workItem from="1555939086219" duration="2452000" />
+      <workItem from="1555945723375" duration="3652000" />
+      <workItem from="1555949770595" duration="220000" />
+      <workItem from="1555999548795" duration="2958000" />
+      <workItem from="1556082901570" duration="3664000" />
+      <workItem from="1556091703956" duration="413000" />
+      <workItem from="1556425027886" duration="228000" />
+      <workItem from="1556425282424" duration="1387000" />
+      <workItem from="1556437797131" duration="5072000" />
+      <workItem from="1556503341734" duration="18073000" />
+      <workItem from="1556536274059" duration="794000" />
+      <workItem from="1556537326490" duration="1398000" />
+      <workItem from="1556539423573" duration="778000" />
+      <workItem from="1556540222993" duration="1442000" />
+      <workItem from="1556548080561" duration="1596000" />
+      <workItem from="1556595103522" duration="2768000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="58911000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1932" height="922" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14690171" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32854864" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.79317695" weight="0.2658228" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.62899786" weight="0.39688715" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32900432" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" weight="0.32900432" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.70682305" weight="0.27272728" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.37100214" side_tool="true" weight="0.3982684" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32854864" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32954547" />
+      <window_info active="true" anchor="right" id="Mongo Explorer" order="4" visible="true" weight="0.3530983" />
+      <window_info anchor="right" id="Database" order="5" weight="0.14473684" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.058635395" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.79317695" visible="true" weight="0.30529594" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989059" weight="0.39937106" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32917964" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.20682302" side_tool="true" weight="0.30529594" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32969433" />
+      <window_info active="true" anchor="right" id="Mongo Explorer" order="4" visible="true" weight="0.098614074" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32969433" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/final_music_player$mongo_process.coverage" NAME="mongo_process Coverage Results" MODIFIED="1555938886848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/final_music_player$algorithms.coverage" NAME="algorithms Coverage Results" MODIFIED="1556442201007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/final_music_player$down_load_music.coverage" NAME="down_load_music Coverage Results" MODIFIED="1556548142273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/final_music_player$data_init.coverage" NAME="data_init Coverage Results" MODIFIED="1556548113040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/final_music_player$results.coverage" NAME="results Coverage Results" MODIFIED="1556084193149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/final_music_player$songInfo.coverage" NAME="songInfo Coverage Results" MODIFIED="1555940282528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/final_music_player$Main_process.coverage" NAME="Main_process Coverage Results" MODIFIED="1556608467453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/final_music_player$main_ui.coverage" NAME="main_ui Coverage Results" MODIFIED="1555937386295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/final_music_player$get_singer_info.coverage" NAME="get_singer_info Coverage Results" MODIFIED="1555941196876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://E:/download/github_download/PPlayer/run.py" />
+    <entry file="file://$PROJECT_DIR$/main.py" />
+    <entry file="file://$USER_HOME$/Documents/Tencent Files/861040668/FileRecv/prediction.py" />
+    <entry file="file://$USER_HOME$/Documents/Tencent Files/861040668/FileRecv/base_split_model.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-1247358834/PyQt5/QtWidgets/QWidget.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pymongo/common.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pymongo/database.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pymongo/mongo_client.py" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49890">
+          <caret line="1663" selection-start-line="1663" selection-end-line="1663" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/qtawesome/iconic_font.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pymongo/cursor.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/abc.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pymongo/collection.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/codecs.py" />
+    <entry file="file://$PROJECT_DIR$/results.py" />
+    <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://$PROJECT_DIR$/json_data/singers.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2565" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../results.py" />
+    <entry file="file://$PROJECT_DIR$/img/label1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/label2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/label3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/song_feature.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-855" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tubiao/gedan.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/data.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registered.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../down_load_music.py" />
+    <entry file="file://$PROJECT_DIR$/denglu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="43" column="45" lean-forward="true" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_ui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285">
+          <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yindao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="128" selection-start-line="128" selection-end-line="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json_data/song.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="7456" column="1" lean-forward="true" selection-start-line="7456" selection-start-column="1" selection-end-line="7456" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json_data/user.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/denglu.ui">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1995">
+          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_widget.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <marker date="1555380245057" expanded="true" signature="95:100" ph="..." />
+            <marker date="1555380245057" expanded="true" signature="445:446" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_ui.ui">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_init.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1674">
+          <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <marker date="1555937226872" expanded="true" signature="220:221" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongo_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/down_load_music.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <folding>
+            <marker date="1556540356067" expanded="true" signature="596:597" ph="..." />
+            <marker date="1556540356067" expanded="true" signature="2367:2513" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/songInfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-648">
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_singer_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="122" column="28" lean-forward="true" selection-start-line="122" selection-start-column="28" selection-end-line="122" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#531#2268#0" />
+            <element signature="e#2358#3680#0" />
+            <element signature="e#3767#4755#0" />
+            <marker date="1556534090392" expanded="true" signature="1412:1417" ph="..." />
+            <marker date="1556534090392" expanded="true" signature="3023:3028" ph="..." />
+            <marker date="1556534090392" expanded="true" signature="4306:4355" ph="..." />
+            <marker date="1556534090392" expanded="true" signature="6638:6803" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
