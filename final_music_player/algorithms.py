@@ -27,10 +27,8 @@ class my_model_nmf:#基于nmf的协同过滤推荐
             user_id.append(user['userId'])
             user_list.append(user)
             user_count=user_count+1
-        #创建用户，用户播放音乐记录的二维矩阵，用来做推荐
         data=np.zeros((user_count,len(song_list)))
         data=pd.DataFrame(data,columns=song_list,index=user_id)
-        #将用户信息导入导入到data表格
         for i in range(user_count):
             song_records=user_list[i]['songRecord']
             for song_record in song_records:
@@ -50,23 +48,20 @@ class my_model_nmf:#基于nmf的协同过滤推荐
         rec_userid=user_index.index(user_id)
         train_data = data.values
         model=joblib.load('models//nmf.m')
-        item_dis=model.transform(train_data)#歌曲特征
-
-        user_dis=model.components_#用户特征
-
-        filter_matrix = train_data < 1e-8#过滤听过的音乐
-
-        rec_mat = np.dot(item_dis, user_dis)#重建矩阵
+        item_dis=model.transform(train_data)
+        user_dis=model.components_
+        filter_matrix = train_data < 1e-8
+        rec_mat = np.dot(item_dis, user_dis)
         rec_filter_mat=(filter_matrix*rec_mat).T
-
-        rec_list = rec_filter_mat[rec_userid, :]  # 推荐用户的音乐列表
-
+        rec_list = rec_filter_mat[rec_userid, :]
         out=np.argsort(rec_list)
         recommond=[]
         for temp in out[-10:]:#推荐10首音乐
             recommond.append(song_index[temp])
         return recommond
-class my_model_knn:#基于knn的内容推荐
+
+
+class my_model_knn:
     def __init__(self):
         pass
     def init_datebase(self):
@@ -74,7 +69,6 @@ class my_model_knn:#基于knn的内容推荐
         self.my_software = self.client['music_player']
         self.song = self.my_software['song']
         self.user = self.my_software['user']
-        #首先，取出所有音乐，得到音乐列表，歌手，得到歌手列表，类型，得到类型列表，使用向量进行表示
         songs=self.song.find()
         song_list=[]
         singer_list=[]
@@ -86,7 +80,6 @@ class my_model_knn:#基于knn的内容推荐
             style_list.append(song['style'])
         singer_list=list(set(singer_list))
         style_list = list(set(style_list))
-        #对每首歌进行one-hot编码,暂时只考虑歌手,音乐类型,时长三个特征进行推荐，基于内容的推荐只考虑喜好音乐之间的相似性，不考虑其他用户的共性
         len_features=len(singer_list)+len(style_list)+len(time_list)
         len_music=len(song_list)
         feature=singer_list+style_list+time_list
@@ -102,9 +95,9 @@ class my_model_knn:#基于knn的内容推荐
             data.loc[name,self.procee_time(song['time'])]=1
         data.to_csv('models//song_feature.csv')
     def procee_time(self,time):
-        if(time <=80):#短音乐
+        if(time <=80):
             a='short'
-        elif(time <=200):#普通音乐
+        elif(time <=200):
             a='mid'
         else:
             a='long'
@@ -114,7 +107,7 @@ class my_model_knn:#基于knn的内容推荐
             return 1
         else:
             return 0
-    def recommend_Logistic(self,id):#使用用户的信息,通过逻辑回归分类器进行推荐
+    def recommend_Logistic(self,id):
         data=pd.read_csv('models//song_feature.csv',index_col=0)
         all_song_index=list(data.index)
         user_info=self.user.find_one({'userId':id})['songRecord']

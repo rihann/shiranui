@@ -13,24 +13,55 @@
     <height>600</height>
    </rect>
   </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout" stretch="1,12,1">
     <item>
-     <layout class="QHBoxLayout" name="daohang_layout" stretch="1,4,1,1">
+     <layout class="QHBoxLayout" name="daohang_layout" stretch="4,20,1,4">
+      <property name="spacing">
+       <number>4</number>
+      </property>
       <property name="sizeConstraint">
        <enum>QLayout::SetDefaultConstraint</enum>
       </property>
       <property name="leftMargin">
-       <number>10</number>
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
       </property>
       <property name="rightMargin">
-       <number>10</number>
+       <number>100</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
       </property>
       <item>
-       <widget class="QComboBox" name="comboBox"/>
+       <widget class="QComboBox" name="comboBox">
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(79, 79, 79);
+color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
       </item>
       <item>
        <widget class="QLineEdit" name="sousuo_input"/>
@@ -38,7 +69,7 @@
       <item>
        <widget class="QPushButton" name="sousuo">
         <property name="text">
-         <string>搜索</string>
+         <string/>
         </property>
        </widget>
       </item>
@@ -47,19 +78,59 @@
         <property name="text">
          <string/>
         </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
        </widget>
       </item>
      </layout>
     </item>
     <item>
      <layout class="QHBoxLayout" name="recommend" stretch="1,4">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
       <item>
-       <layout class="QGridLayout" name="left_layout"/>
+       <layout class="QGridLayout" name="left_layout" rowstretch="0" columnstretch="0">
+        <property name="sizeConstraint">
+         <enum>QLayout::SetDefaultConstraint</enum>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>300</number>
+        </property>
+        <property name="horizontalSpacing">
+         <number>0</number>
+        </property>
+        <property name="verticalSpacing">
+         <number>6</number>
+        </property>
+       </layout>
       </item>
       <item>
        <layout class="QVBoxLayout" name="right_layout" stretch="1,4">
+        <property name="spacing">
+         <number>0</number>
+        </property>
         <item>
          <layout class="QHBoxLayout" name="up_layout" stretch="1,2">
+          <property name="spacing">
+           <number>0</number>
+          </property>
           <item>
            <widget class="QLabel" name="img_label">
             <property name="text">
@@ -80,13 +151,16 @@
               <rect>
                <x>0</x>
                <y>0</y>
-               <width>404</width>
-               <height>84</height>
+               <width>411</width>
+               <height>89</height>
               </rect>
              </property>
              <layout class="QVBoxLayout" name="verticalLayout_3">
               <item>
                <layout class="QVBoxLayout" name="verticalLayout_2">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
                 <item>
                  <widget class="QLabel" name="music_form_info">
                   <property name="text">
@@ -115,8 +189,8 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>615</width>
-             <height>350</height>
+             <width>620</width>
+             <height>371</height>
             </rect>
            </property>
           </widget>
@@ -127,19 +201,13 @@
      </layout>
     </item>
     <item>
-     <layout class="QVBoxLayout" name="process_layout"/>
+     <layout class="QVBoxLayout" name="process_layout">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+     </layout>
     </item>
    </layout>
-  </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>800</width>
-     <height>23</height>
-    </rect>
-   </property>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
@@ -148,7 +216,6 @@
   <tabstop>sousuo_input</tabstop>
   <tabstop>scrollArea</tabstop>
   <tabstop>music_form</tabstop>
-  <tabstop>sousuo</tabstop>
  </tabstops>
  <resources/>
  <connections/>

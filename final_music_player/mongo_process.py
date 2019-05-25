@@ -22,6 +22,7 @@ class process_data:
         data={'userId':user_id}
         temp={}
         data['songRecord']=temp
+        data['favorite']={}
         data['password']=password
         self.user.insert_one(data)
     def get_user_music(self,user_id):
@@ -114,3 +115,27 @@ class process_data:
         else:
             out=result[1]
         return out
+    def insert_fav(self,user_id,music_name):
+        user_info = self.user.find_one({'userId': user_id})
+        music_form = user_info['favorite']
+        count = music_form.get(music_name)
+        if (count == None):
+            music_form[music_name] = 1
+            self.user.update({'userId': user_id}, {"$set": {'favorite': music_form}})
+    def delete_fav(self,user_id,music_name):
+        user_info = self.user.find_one({'userId': user_id})
+        music_form = user_info['favorite']
+        count = music_form.get(music_name)
+        if (count != None):
+            music_form.pop(music_name)
+            self.user.update({'userId': user_id}, {"$set": {'favorite': music_form}})
+    def get_user_music_fav(self,user_id):
+        user_info=self.user.find_one({'userId':user_id})
+        music_form=user_info['favorite']
+        music_info={}
+        for music in music_form:
+            temp=self.song.find_one({'name':music})
+            music_info[music]=temp
+        return music_form,music_info#返回歌曲收藏记录，和音乐信息
+
+

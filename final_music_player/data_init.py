@@ -47,12 +47,15 @@ def init_user(song_list):#初始化数据库中用户数据
                 counts.append(random.uniform(0.0,10.0) )#随机化评分0-10
                 song_info[temp_song_list[i]]=counts
             data['songRecord']=song_info
+            data['favorite']={}
             data['password']='123'
             user.insert_one(data)
 def init_singer_info():#初始化mysql
     data=pd.read_csv('json_data\\singers.csv')
+    print(data.shape[0])
     db = pymysql.connect("localhost", "root", "123456", "singer_info")
     cursor = db.cursor()
+    count=0
     for i in range(data.shape[0]):
         temp=data.iloc[i,:]
         sql = "INSERT INTO singer_info(name, \
@@ -65,11 +68,16 @@ def init_singer_info():#初始化mysql
             # 提交到数据库执行
             db.commit()
         except:
+            count=count+1
+            print(temp['name'])
+            print(len(temp['info']))
             # 如果发生错误则回滚
             db.rollback()
 
+
     # 关闭数据库连接
     db.close()
+    print(count)
 song_list=init_song()
 init_user(song_list)
 init_singer_info()
